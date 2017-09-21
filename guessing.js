@@ -29,9 +29,7 @@ var turns = 0
 				turns++
 				totalTurns++
 			}
-			else if(isNan(Guess){
-				document.write()
-			})
+
 		}
 		while (guess != Answer)
 		if(guess == Answer){
@@ -39,10 +37,10 @@ var turns = 0
 			turns++
 			totalTurns++
 		}
-		alert("you found the answer in "+(turns - 1)+" turns")
-		average = (totalTurns / games)
-		alert("your average turns is "+average+" turns")
-		alert("you have done "+games+" games so far!")
+		alert("you found the answer in "+(turns - 1)+" turns");
+		average = (totalTurns / games);
+		alert("your average turns is "+average+" turns");
+		alert("you have done "+games+" games so far!");
 		
 		playAgain = prompt("Would you like to play again? y = yes");
 	}
